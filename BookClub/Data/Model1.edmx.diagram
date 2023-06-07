@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7f23a2615264f68b06df080586f6212" Name="Diagram1">
+        <EntityTypeShape EntityType="BookClubModel.ListOfProducts" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookClubModel.Manufacturers" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookClubModel.OrderProduct" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookClubModel.Orders" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookClubModel.PickupPoints" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookClubModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="BookClubModel.FK_ListOfProducts_Manufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="BookClubModel.FK_OrderProduct_ListOfProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="BookClubModel.FK_OrderProduct_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="BookClubModel.FK_Orders_PickupPoints" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
